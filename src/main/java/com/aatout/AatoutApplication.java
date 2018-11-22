@@ -27,6 +27,7 @@ public class AatoutApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		DateFormat df =new SimpleDateFormat("dd/MM/yyyy");
+		//Ce sont des outils de test
 			Utilisateur ut =null;
 				 ut = new Partenaire("Barri", "Copa", df.parse("15/25/1982"), "barcop@gmail.com", 96442734, "barco.png");
 		utilisateurRepository.save(ut);
